@@ -1,0 +1,35 @@
+{
+  "trips": [
+    {
+      "tripId": "longhaul-1",
+      "name": "Cross-Country Long Haul",
+      "events": [
+        { "ts": "2025-11-10T12:00:00Z", "lat": 40.7128, "lng": -74.006, "speed": 55, "eventType": "start" },
+        { "ts": "2025-11-10T12:30:00Z", "lat": 41.0, "lng": -75.0, "speed": 60, "eventType": "position" },
+        { "ts": "2025-11-10T13:00:00Z", "lat": 41.5, "lng": -76.5, "speed": 58, "eventType": "position" },
+        { "ts": "2025-11-10T14:00:00Z", "lat": 42.0, "lng": -78.0, "speed": 62, "eventType": "position" },
+        { "ts": "2025-11-10T16:00:00Z", "lat": 43.0, "lng": -80.0, "speed": 60, "eventType": "fuel_low" },
+        { "ts": "2025-11-10T18:00:00Z", "lat": 44.0, "lng": -82.0, "speed": 58, "eventType": "complete" }
+      ]
+    },
+    {
+      "tripId": "urban-1",
+      "name": "Urban Dense Delivery",
+      "events": [
+        { "ts": "2025-11-10T12:05:00Z", "lat": 34.0522, "lng": -118.2437, "speed": 10, "eventType": "start" },
+        { "ts": "2025-11-10T12:06:00Z", "lat": 34.0523, "lng": -118.2435, "speed": 8, "eventType": "position" },
+        { "ts": "2025-11-10T12:08:00Z", "lat": 34.0526, "lng": -118.2430, "speed": 12, "eventType": "position" },
+        { "ts": "2025-11-10T12:20:00Z", "lat": 34.0530, "lng": -118.2420, "speed": 0, "eventType": "delivered" }
+      ]
+    },
+    {
+      "tripId": "mountain-1",
+      "name": "Mountain Route Cancelled",
+      "events": [
+        { "ts": "2025-11-10T12:10:00Z", "lat": 39.7392, "lng": -104.9903, "speed": 30, "eventType": "start" },
+        { "ts": "2025-11-10T12:40:00Z", "lat": 39.8, "lng": -105.2, "speed": 20, "eventType": "snow_alert" },
+        { "ts": "2025-11-10T13:00:00Z", "lat": 39.85, "lng": -105.4, "speed": 0, "eventType": "cancelled" }
+      ]
+    }
+  ]
+}

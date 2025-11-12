@@ -1,0 +1,10 @@
+[
+  {"id":"e1","tripId":"cross-country","timestamp":"2025-11-10T00:00:00Z","eventType":"start","lat":40.7128,"lon":-74.0060,"speed":0,"note":"start"},
+  {"id":"e2","tripId":"cross-country","timestamp":"2025-11-10T00:10:00Z","eventType":"position","lat":41.0,"lon":-75.0,"speed":65},
+  {"id":"e3","tripId":"cross-country","timestamp":"2025-11-10T00:30:00Z","eventType":"position","lat":42.0,"lon":-77.0,"speed":70},
+  {"id":"e4","tripId":"urban","timestamp":"2025-11-10T00:00:00Z","eventType":"start","lat":34.0522,"lon":-118.2437,"speed":0},
+  {"id":"e5","tripId":"urban","timestamp":"2025-11-10T00:05:00Z","eventType":"position","lat":34.0530,"lon":-118.2440,"speed":20},
+  {"id":"e6","tripId":"mountain","timestamp":"2025-11-10T00:00:00Z","eventType":"start","lat":39.7392,"lon":-104.9903,"speed":0},
+  {"id":"e7","tripId":"southern","timestamp":"2025-11-10T00:00:00Z","eventType":"start","lat":29.7604,"lon":-95.3698,"speed":0},
+  {"id":"e8","tripId":"regional","timestamp":"2025-11-10T00:00:00Z","eventType":"start","lat":33.7490,"lon":-84.3880,"speed":0}
+]
